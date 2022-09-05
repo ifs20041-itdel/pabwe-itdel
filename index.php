@@ -12,14 +12,14 @@
         <div class="card">
             <div class="card-body w-50 mx-auto">
 
-                <img src="assets/img/profile.jpeg" alt="foto-saya" class="img-thumbnail d-block mx-auto" width="150"/>
+00000                <img src="assets/img/profile.jpeg" alt="foto-saya" class="img-thumbnail d-block mx-auto" width="150"/>
                 <h3 class="text-center">11S20041_Fany Tania Lumban Siantar</h3>
 
                 <div class="list-group">
                     <li href="#" class="list-group-item list-group-item-action active" aria-current="true">
                       <h3>Hasil Praktikum</h3>
                     </li>
-                    <a href="#" class="list-group-item list-group-item-action">Minggu Ke-2</a>
+                    <a href="fany.html" class="list-group-item list-group-item-action">Minggu Ke-2</a>
                     <a href="#" class="list-group-item list-group-item-action">Minggu Ke-3</a>
                     <a href="#" class="list-group-item list-group-item-action">Minggu Ke-4</a>
                 </div>
