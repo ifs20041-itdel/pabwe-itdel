@@ -1,0 +1,35 @@
+<!--
+    Nama File : loginval.html
+    NIM       : 11S20041
+    Kelas     : 13 IF 2
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Form Login</title>
+</head>
+<body>
+    <div>
+        <a href="Login.html"><h1>Form Login</h1></a>
+    </div>
+        <hr>
+        <fieldset>
+            <legend>Masukkan Akun Anda Di sini</legend>
+            <form>
+            <p>
+                <label for="idusername">Username:</label> <input id="idusername" type="text" name="username" placeholder="max 8 karakter" maxlength="8"/>
+            </p>
+            <p>
+                <label for="idpass">Password:</label> <input id="idpass" type="password" name="password" placeholder="min 8 karakter" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" />
+            </p>      
+            <input type="submit" name="submit" value="Login" />
+            <span>
+                <a href="index.html">Forgot Username/Password </a>
+            </span>
+        </fieldset>
+    </form>
+</body>
+ 
+</html>
