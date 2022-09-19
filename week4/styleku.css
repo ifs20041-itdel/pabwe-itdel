@@ -29,7 +29,7 @@
       header {
         height: 180px;
         width: 1024px;
-        background-color: rgb(157, 150, 225);
+        background-color: rgb(237, 244, 157);
         border: 1px solid black;
         padding: px;
         text-align: center;
@@ -49,7 +49,7 @@
     
     padding: 20px;
     width: 264px;
-    background: rgb(157, 150, 225);
+    background: rgb(225, 205, 143);
     height: auto;
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -70,7 +70,7 @@
         flex: 3;
         padding: 10px;
         width: 750px;
-        background: rgb(157, 150, 225);
+        background: rgb(225, 205, 143);
         height:auto;
         border-left: 1px solid black;
       }
@@ -79,7 +79,7 @@
       footer {
         padding: auto;
         text-align: center;
-        background-color: rgb(157, 150, 225);
+        background-color: rgb(237, 244, 157);
         width: 1024px;
         height: 70px;
         border: 1px solid black;
