@@ -32,5 +32,4 @@ function myDom() {
           document.getElementById("name").focus();
  
        }
- 
  } 
