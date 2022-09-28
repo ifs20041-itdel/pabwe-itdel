@@ -1,0 +1,65 @@
+<!--
+    Nama File   : index.html
+    NIM         : 11S20041
+    Kelas       : 13 IF 2
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom1_11S20014</title>
+    
+</head>
+<style>
+    #button {
+        margin-left: 150px;
+        margin-top: 15px;
+    }
+</style>
+
+<body>
+    <div class= "card">
+        <div class="card-body">
+            <form>
+                <table>
+                    <tr>Masukkan Nama Anda : </tr>
+                <input id="inputName" type="text" class="form-control"
+                placeholder="Name">
+                <br>
+                <button class="btn btn-success" type="button"
+                id="button"
+                onclick="displayName();">Insert</button>
+                <h4 id="infoName" >Nama Saya Adalah: <span id="displayName"></span></h4>
+                </table>
+                <button type ="button" onclick="changeColor()" class="btn btn-primary">Ganti Warna</button>
+            </form>
+    </div>
+    </div>
+
+    <style>
+        .textColor{
+            color: rgb(2, 81, 52);
+        }
+    </style>
+
+    <script>
+        function displayName(){
+            let name = document.getElementById("inputName").value;
+            document.getElementById("displayName").innerText = name;
+
+        }
+       
+        //WARNA
+
+        function changeColor(){
+
+        document.getElementById("infoName").classList.toggle("textColor");
+
+        }
+      
+    </script>
+</body>
+</html>
