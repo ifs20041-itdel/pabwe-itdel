@@ -23,6 +23,7 @@
                     <a href="week3/loginval.html" class="list-group-item list-group-item-action">Minggu Ke-3</a>
                     <a href="week4/index.html" class="list-group-item list-group-item-action">Minggu Ke-4</a>
                     <a href="week5/mahasiswa.html" class="list-group-item list-group-item-action">Minggu Ke-5</a>
+                    <a href="http://localhost/laravel-app/public/welcome/welcoming" class="list-group-item list-group-item-action">Minggu Ke-10</a>
                 </div>
             </div>
         </div>
